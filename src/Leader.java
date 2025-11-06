@@ -9,8 +9,9 @@ public abstract class Leader {
         this.yearInPower = yearInPower;
     }
 
-    public abstract void giveSpeach();
+    public abstract void giveSpeech();
 
+    //Viser detailer i console.
     public void printDetails(){
         System.out.println("Name: " + name +
                             "\nCountry: " + country +

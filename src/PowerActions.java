@@ -1,11 +1,9 @@
 public interface PowerActions {
 
-    void implementPolicy(String newPolicy);
+    String implementPolicy(String newPolicy);
 
-    void repressOpposition();
+    String repressOpposition();
 
-    void holdParade();
-
-
+    String holdParade();
 
 }
