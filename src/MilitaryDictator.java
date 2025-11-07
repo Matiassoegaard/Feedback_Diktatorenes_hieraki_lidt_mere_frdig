@@ -22,21 +22,21 @@ public class MilitaryDictator extends Leader implements PowerActions{
                             "\nMilitary Rank: " + militaryRank);
     }
 
-    //Metoder der er blevet implementeret fra interfacen PowerActions
+    //Metoder der er blevet implementeret og override fra interfacen PowerActions
     @Override
-    public String implementPolicy(String newPolicy) {
-        return name + " dictator implements a new policy: " + newPolicy;
+    public void implementPolicy(String newPolicy) {
+        System.out.println(name + " dictator implements a new policy: " + newPolicy); ;
     }
 
-    //Metoder der er blevet implementeret fra interfacen PowerActions
+    //Metoder der er blevet implementeret og override fra interfacen PowerActions
     @Override
-    public String repressOpposition() {
-        return name + " dictator represses opposition";
+    public void repressOpposition() {
+        System.out.println(name + " dictator represses opposition");
     }
 
-    //Metoder der er blevet implementeret fra interfacen PowerActions
+    //Metoder der er blevet implementeret og override fra interfacen PowerActions
     @Override
-    public String holdParade() {
-        return name + " holds a big military parade";
+    public void holdParade() {
+        System.out.println(name + " holds a big military parade");
     }
 }

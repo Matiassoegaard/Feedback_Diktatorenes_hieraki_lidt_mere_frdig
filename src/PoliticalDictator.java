@@ -24,19 +24,19 @@ public class PoliticalDictator extends Leader implements PowerActions{
 
     //Metoder der er blevet implementeret fra interfacen PowerActions
     @Override
-    public String implementPolicy(String newPolicy){
-        return name + " is implementing a new policy: " + newPolicy;
+    public void implementPolicy(String newPolicy){
+        System.out.println(name + " is implementing a new policy: " + newPolicy);
     }
 
     //Metoder der er blevet implementeret fra interfacen PowerActions
     @Override
-    public String repressOpposition(){
-        return name + " is repressing the opposition through political mean.";
+    public void repressOpposition(){
+        System.out.println(name + " is repressing the opposition through political mean.");
     }
 
     //Metoder der er blevet implementeret fra interfacen PowerActions.
     @Override
-    public String holdParade(){
-        return name + " is holding a political parade.";
+    public void holdParade(){
+        System.out.println(name + " is holding a political parade.");
     }
 }
