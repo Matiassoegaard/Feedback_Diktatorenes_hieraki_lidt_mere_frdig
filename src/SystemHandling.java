@@ -13,7 +13,7 @@ public class SystemHandling {
 
     //Her får man listen af leaders
     public List<Leader> listOfLeaders(){
-            //Polymorfi. Laver et objekt "PoliticalDictator" som har "Leader" klassen som variable.
+            //Laver et objekt "PoliticalDictator" som har "Leader" klassen som variable.
             //Dette virker på grund af "PoliticalDictator" er en subklasse af "Leader"
             Leader politicalLeader = new PoliticalDictator("Palpatine","Galactic Empire",20,"Sith Party");
             //Det samme sker her bare med "MilitaryDictator" klassen.
