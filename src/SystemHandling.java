@@ -8,6 +8,7 @@ public class SystemHandling {
 
     //Constructor til klassen SystemHandling
     public SystemHandling() {
+        //Gør så listen kun bliver lavet en gang når objektet bliver lavet.
         this.leaders = listOfLeaders();
     }
 
